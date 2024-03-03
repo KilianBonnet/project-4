@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class ScannerExpand : MonoBehaviour
+public class Scanner : MonoBehaviour
 {
     [ColorUsage(showAlpha: true, hdr: true)]
     public Color ScannerColor;
 
     public float ScannerDistance = 1;
 
-    private const float EXPAND_SPEED = 2.0f;
+    private const float EXPAND_SPEED = 5.0f;
     private Material scannerMaterial;
     private float currentDistance;
 
